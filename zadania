@@ -26,16 +26,17 @@ using namespace std;
 int a,suma;
 double pierwiastek;
 int main()
+/* BRZYDKO !!!! */
 {
-do
-{
-cin >> a;
-suma = suma+a;
-} while (a!=0);
-cout << "suma = " << suma << endl;
-pierwiastek=sqrt(suma);
-cout << "pierwiastek = " << pierwiastek << endl;
-return 0;
+    do
+    {
+        cin >> a;
+        suma = suma+a;
+    } while (a!=0);
+    cout << "suma = " << suma << endl;
+    pierwiastek=sqrt(suma);
+    cout << "pierwiastek = " << pierwiastek << endl;
+    return 0;
 }
 
 ==============================================================
